@@ -1,216 +1,67 @@
-SOS-Mata-Atlantica
-Plataforma web acadêmica para divulgação de projetos e ações da Fundação SOS Mata Atlântica.
-Fundação SOS Mata Atlântica
-
-Projeto acadêmico de desenvolvimento de uma plataforma web para a **Fundação SOS Mata Atlântica**, desenvolvido como atividade da disciplina de desenvolvimento web.
-
-O projeto tem como objetivo criar uma presença digital organizada, acessível e informativa, apresentando a organização, seus projetos ambientais, formas de participação e informações para voluntários e apoiadores.
-
----
-
+SOS Mata Atlântica
+Plataforma web acadêmica para divulgação de projetos e ações relacionados à conservação da Mata Atlântica.
 Sobre o projeto
-A plataforma foi desenvolvida com foco na divulgação das ações relacionadas à conservação da Mata Atlântica.
+Este projeto foi desenvolvido como atividade acadêmica da disciplina de Desenvolvimento Web. A plataforma apresenta informações introdutórias sobre a Fundação SOS Mata Atlântica como organização de referência, divulga temas de conservação ambiental e demonstra formas de participação da sociedade.
+Aviso: este é um projeto educativo e demonstrativo, sem vínculo oficial com a Fundação SOS Mata Atlântica. O formulário não envia nem armazena dados e não recebe doações.
 
-O sistema apresenta:
-* Informações institucionais;
-* Missão e áreas de atuação;
-* Projetos ambientais;
-* Informações sobre voluntariado;
-* Formas de contribuição;
-* Indicadores de impacto;
-* Informações de contato;
-* Formulário de cadastro;
-* Estrutura preparada para futuras funcionalidades com CSS3 e JavaScript.
+Funcionalidades
+- Página inicial com apresentação da causa e da organização de referência.
+- Página de projetos com temas como restauração florestal, conservação de rios, parques e reservas e voluntariado.
+- Página Participe com formulário demonstrativo.
+- Navegação entre páginas e menu adaptado para dispositivos móveis.
+- Validação dos campos obrigatórios pelo navegador.
+- Mensagem de confirmação demonstrativa após o preenchimento válido do formulário.
+- Imagens armazenadas localmente no projeto.
+- Recursos básicos de acessibilidade, incluindo estrutura semântica, link para pular ao conteúdo, textos alternativos e identificação dos campos do formulário.
+Páginas
+Arquivo	Descrição
+index.html	Página inicial, apresentação da causa e convite à participação.
+projetos.html	Apresentação de projetos e áreas de atuação ambiental.
+cadastro.html	Formulário demonstrativo para registrar interesse em participar.
 
----
-
-Objetivos
-
-Objetivo geral
-
-Desenvolver uma plataforma web para apresentar informações sobre a Fundação SOS Mata Atlântica e facilitar o acesso da sociedade às suas iniciativas.
-
-Objetivos específicos
-* Aplicar os fundamentos do HTML5;
-* Utilizar estruturas semânticas;
-* Criar formulários utilizando recursos nativos do HTML5;
-* Aplicar conceitos de acessibilidade;
-* Organizar arquivos e recursos de forma profissional;
-* Preparar a estrutura para implementação de CSS3;
-* Preparar a estrutura para implementação de JavaScript;
-* Utilizar controle de versão através do Git e GitHub.
-
----
-
-Páginas do projeto
-
-Página Inicial — `index.html`
-
-Apresenta:
-* Sobre a Fundação;
-* Missão;
-* História;
-* Principais causas;
-* Áreas de atuação;
-* Informações institucionais;
-* Transparência;
-* Formas de ajudar;
-* Contato.
-
-Projetos — `projetos.html`
-
-Apresenta:
-* Projetos de restauração;
-* Conservação da Mata Atlântica;
-* Monitoramento de rios;
-* Parques e reservas;
-* Proteção ambiental;
-* Voluntariado;
-* Formas de contribuição;
-* Indicadores de impacto.
-
-Cadastro — `cadastro.html`
-Possui formulário para cadastro do usuário contendo:
-* Nome completo;
-* E-mail;
-* CPF;
-* Telefone;
-* Data de nascimento;
-* Endereço;
-* CEP;
-* Cidade;
-* Estado;
-* Perfil de participação;
-* Área de interesse;
-* Mensagem;
-* Aceite dos termos.
-
----
 
 Tecnologias utilizadas
-Nesta primeira etapa do projeto:
-* HTML5
-* Git
-* GitHub
-
-Tecnologias previstas para as próximas etapas
-* CSS3
-* JavaScript
-
----
-
-Acessibilidade
-O projeto utiliza recursos básicos de acessibilidade, incluindo:
-* Estrutura semântica do HTML5;
-* Hierarquia lógica de títulos;
-* Texto alternativo nas imagens;
-* Elementos `label` associados aos campos;
-* Navegação através de links;
-* Agrupamento de campos com `fieldset` e `legend`;
-* Uso de elementos semânticos como `header`, `nav`, `main`, `section`, `article` e `footer.
-
----
-
-Responsividade
-A estrutura HTML foi desenvolvida considerando a futura implementação de um layout **mobile-first** com CSS3.
-
-A versão atual utiliza:
-
-html
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-A responsividade visual será implementada na etapa de CSS3.
-
----
-
-Validação do formulário
-
-O formulário utiliza recursos nativos do HTML5, como:
-* `required`
-* `type="email"`
-* `type="tel"`
-* `type="date"`
-* `pattern`
-* `minlength`
-* `maxlength`
-
-Também foram utilizados padrões para:
-* CPF: `000.000.000-00`
-* Telefone: `(00) 00000-0000`
-* CEP: `00000-000`
-
-As máscaras automáticas serão implementadas posteriormente utilizando JavaScript.
-
----
-
-Estrutura do projeto
+- HTML5: estrutura e conteúdo semântico.
+- CSS3: identidade visual, layout e adaptação a diferentes tamanhos de tela.
+- JavaScript: menu móvel e comportamento demonstrativo do formulário.
+- Git e GitHub: controle de versão e compartilhamento do código (quando utilizados no fluxo de desenvolvimento).
+Estrutura de pastas
 sos-mata-atlantica/
-│
 ├── index.html
 ├── projetos.html
 ├── cadastro.html
-│
-├── imagens/
-│   ├── logo-sos.jpg
-│   ├── mata-atlantica.jpg
-│   ├── restauracao.jpg
-│   ├── rios.jpg
-│   ├── parques.jpg
-│   └── voluntariado.jpg
-│
-└── README.md
-
----
-
-Próximas etapas
-Etapa 1 — HTML5
-
-* [x] Estrutura das páginas
-* [x] Navegação
-* [x] Conteúdo institucional
-* [x] Projetos
-* [x] Formulário
-* [x] Validação nativa
-* [x] Estrutura semântica
-
-Etapa 2 — CSS3
-* [ ] Identidade visual
-* [ ] Layout responsivo
-* [ ] Mobile-first
-* [ ] Flexbox
-* [ ] Grid
-* [ ] Media queries
-* [ ] Tipografia
-* [ ] Cores
-* [ ] Cards de projetos
-* [ ] Menu responsivo
-
-Etapa 3 — JavaScript
-* [ ] Máscara de CPF
-* [ ] Máscara de telefone
-* [ ] Máscara de CEP
-* [ ] Validação personalizada
-* [ ] Interações
-* [ ] Menu mobile
-* [ ] Elementos dinâmicos
-* [ ] Sistema de progresso das campanhas
-
----
-
-Tema - Conservação da Mata Atlântica
-
-O projeto foi desenvolvido com finalidade acadêmica e utiliza a Fundação SOS Mata Atlântica como organização de referência para a construção da plataforma.
-
----
-
+├── README.md
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+└── imagens/
+    ├── logo-sos.png
+    ├── mata-atlantica.png
+    ├── restauracao.png
+    ├── rios.png
+    ├── parques.png
+    └── voluntariado.png
+Como executar
+1. Baixe ou clone o repositório.
+2. Caso tenha baixado um arquivo ZIP, extraia seu conteúdo.
+3. Abra a pasta sos-mata-atlantica.
+4. Abra o arquivo index.html em um navegador, como Google Chrome ou Microsoft Edge.
+Não é necessário instalar dependências nem iniciar um servidor para visualizar a versão demonstrativa.
+Formulário demonstrativo
+O formulário solicita informações básicas de contato e preferências de participação. Os campos obrigatórios são validados pelo navegador. Ao enviar um formulário válido, o JavaScript exibe uma mensagem de confirmação apenas na página e limpa os campos. Os dados não são enviados a um servidor nem armazenados.
+Acessibilidade e responsividade
+O projeto inclui elementos semânticos do HTML5, hierarquia de títulos, textos alternativos nas imagens, rótulos associados aos campos, foco e link para pular diretamente ao conteúdo principal. O CSS contém regras para adaptar o layout a diferentes larguras de tela, e o JavaScript controla a abertura e o fechamento do menu móvel.
+Objetivos acadêmicos
+- Praticar a criação de páginas com HTML5 semântico.
+- Aplicar estilos e princípios de layout responsivo com CSS3.
+- Implementar interações básicas com JavaScript.
+- Organizar arquivos, imagens e código em uma estrutura clara.
+- Aplicar fundamentos de acessibilidade e usabilidade.
+- Utilizar controle de versão e documentar o projeto.
 Integrantes
-* Guilherme Santos Santarelli
-* Bernardo Lima
-* Nome do integrante 3
-
----
-
-Projeto acadêmico
-Projeto desenvolvido para a disciplina de Desenvolvimento Web.
-Tecnologia principal: HTML5
+- Guilherme Santos Santarelli
+- Bernardo Lima
+- Integrante 3: preencher com o nome correto, se houver outro participante.
+Natureza do projeto
+Projeto acadêmico de Desenvolvimento Web. As informações e funcionalidades têm finalidade demonstrativa; para uso real, seria necessário revisar o conteúdo institucional, obter autorização quando aplicável e implementar infraestrutura segura para processamento de dados.
